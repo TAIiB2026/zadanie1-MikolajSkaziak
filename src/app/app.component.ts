@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-
+  plants=['Róża', 'Tulipan', 'Lilie'];
+  
 }

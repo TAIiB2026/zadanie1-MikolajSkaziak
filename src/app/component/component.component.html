@@ -1,0 +1,12 @@
+<h3><span appRamka>{{ plantName }}</span></h3> 
+<p>Wilgotność Signal: {{ wilgotnoscSignal() }}%</p>
+<button (click)="PodnesWilgotnosc()">Podnieś wilgotność</button>
+<!-- @if(wilgotnosc>80){
+    Roślina {{ plantName }} ma za mokro.
+}@else if (wilgotnosc<40) {
+    Roślina {{ plantName }} ma za sucho.
+}@else{
+    Roślina {{ plantName }} ma odpowiednią wilgotność.
+} -->
+    <p>Status: {{ wilgotnoscStatus() }}</p>
+<hr/>
